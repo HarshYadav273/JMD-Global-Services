@@ -5,8 +5,7 @@ import { useState } from "react";
 export default function WhatsAppFloat() {
   const [hovered, setHovered] = useState(false);
 
-  // Demo number — replace with a real number later
-  const phoneNumber = "911234567890";
+  const phoneNumber = "918587070929";
   const message = "Hello! I'd like to know more about your services.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
